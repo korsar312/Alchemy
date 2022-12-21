@@ -6,7 +6,7 @@ import { observer } from "mobx-react";
  * Страница игры
  */
 const GamePage = () => {
-	return <div css={styles.wrapper}></div>;
+	return <div css={styles.wrapper} />;
 };
 
 export default observer(GamePage);
