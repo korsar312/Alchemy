@@ -9,7 +9,7 @@ class GameController {
 
 	constructor() {
 		this.resources = new GameResources();
-		this.hero = new HeroModule({});
+		this.hero = new HeroModule();
 		this.save = new SavingModule();
 	}
 
